@@ -1,0 +1,147 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBackground {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(94, 94, 94);
+}
+
+.tituloTela {
+    font-size: 20px;
+    margin-top: 18px;
+    border-radius: 25px;
+    border: 2px solid rgb(207, 79, 86);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+/* Main */
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    margin: 50px !important;
+}
+
+.voltar {
+    font-size: 20px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid rgb(207, 79, 86);
+    width: 100px;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    height: 36px;
+}
+
+.voltar:hover {
+    background-color: rgb(207, 79, 86);
+    color: white
+}
+
+table {
+    width: 100% !important;
+}
+
+thead {
+    background-color: rgb(58, 55, 55);
+    color: white;
+}
+
+tbody {
+    font-size: 20px;
+}
+
+tr {
+    cursor: pointer;
+}
+
+.erro {
+    display: none;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.erro[style*='block'] {
+    display: flex !important;
+}
+
+.select {
+    color: white;
+    background-color: rgb(121, 154, 204);
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(94, 94, 94);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copyright {
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+}
+
+.contato {
+    color: rgb(226, 226, 226);
+    margin-top: 10px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+input {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+/* Drop */
+
+.dropdown-item:hover,
+.dropdown-item:active {
+    background-color: rgb(228, 143, 147) !important;
+    color: white !important
+}
+
+@media only screen and (max-width: 1500px) {
+    .visualizar {
+        width: 90%;
+    }
+}

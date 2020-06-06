@@ -1,0 +1,183 @@
+body {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.topBackground {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(94, 94, 94);
+}
+
+.mainNav {
+    display: inline-flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(201, 201, 201);
+    margin-top: 20px;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 20px;
+    justify-content: space-between;
+}
+
+.divIcone {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.navItens {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+    transition: color 200ms;
+    display: inline-flex;
+    color: rgb(43, 41, 41) !important;
+    text-decoration: none !important;
+}
+
+.navItens:hover {
+    color: rgb(224, 61, 25) !important;
+}
+
+.divNavItens {
+    display: inline-flex;
+    align-items: center;
+}
+
+.iconsNav {
+    font-size: 28px;
+    margin-right: 5px;
+}
+
+.textNav {
+    font-size: 18px;
+}
+
+.home {
+    padding-left: 20px !important;
+}
+
+.esquerdaNav {
+    display: inline-flex
+}
+
+.tituloTela {
+    font-size: 20px;
+    margin-top: 18px;
+    border-radius: 25px;
+    border: 2px solid rgb(207, 79, 86);
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.invalido {
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+
+.desc {
+    margin-bottom: 20px;
+}
+
+.perg {
+    width: 400px;
+    display: inline-flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+
+.resp {
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.parte {
+    display: none;
+    margin-top: 30px;
+}
+
+.inputs {
+    width: 400px;
+}
+
+.enviar {
+    margin-top: 10px;
+    width: 200px;
+}
+
+.alerta {
+    margin-top: 10px;
+}
+
+/* Footer */
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(94, 94, 94);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.copyright {
+    color: rgb(226, 226, 226);
+    font-size: 20px;
+}
+
+.contato {
+    color: rgb(226, 226, 226);
+    margin-top: 10px;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px white inset !important;
+}
+
+input {
+    box-shadow:none !important;
+    outline:0px !important;
+}
+
+/* Drop */
+
+.dropdown-item:hover,
+.dropdown-item:active {
+    background-color: rgb(228, 143, 147) !important;
+    color: white !important
+}
+
+@media only screen and (max-width: 1500px) {
+    .visualizar {
+        width: 90%;
+    }
+}
